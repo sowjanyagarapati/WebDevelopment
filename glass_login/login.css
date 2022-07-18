@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to bottom, #507c96, #55585c); */
+    background-image: url("bgsky.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.login-page {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 300px;
+    align-items: center;
+}
+
+.form h1{
+    margin: auto auto 20px auto;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid white;
+}
+label {
+    position: absolute;
+    font-size: auto;
+}
+
+.username, .password {
+    float: left;
+}
+
+input[type="text"], input[type="password"] {
+    background: transparent;
+    position: relative;
+    height: 40px;
+    margin: 20 auto;
+    width: 100%;
+    padding: 10px auto;
+}
+
+input[type="submit"]{
+    width: 70px;
+    height: 40px;
+    color: black;
+    border-radius: 5px;
+}
